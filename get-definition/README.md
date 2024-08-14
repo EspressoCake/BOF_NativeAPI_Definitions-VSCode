@@ -11,5 +11,5 @@ Usage:
 - When using a function, e.g., `CreateFileA`
   -  Highlight `CreateFileA` in the current window
   -  `CTRL + SHIFT + P` / `COMMAND + SHIFT + P`
-  -  `getDefinition`
+  -  `Obtain External Definition`
   -  Hit `Enter` / `Return`
