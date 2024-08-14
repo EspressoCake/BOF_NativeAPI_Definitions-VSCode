@@ -1,0 +1,26 @@
+{
+  "name": "bof-prototypes",
+  "displayName": "bof_prototypes",
+  "description": "Prototype generator for Win32 functions.",
+  "version": "0.0.1",
+  "icon": "images/bman.jpeg",
+  "publisher": "thebitdiddler",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "c",
+        "path": "./snippets/ntdll_prototypes.code-snippets"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/ntdll_usages.code-snippets"
+      }
+    ]
+  }
+}

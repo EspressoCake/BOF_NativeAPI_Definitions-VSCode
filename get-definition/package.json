@@ -1,0 +1,42 @@
+{
+  "name": "get-definition",
+  "displayName": "get_definition",
+  "publisher": "thebitdiddler",
+  "description": "An header introspection tool for BOF files.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "get-definition.getDefinition",
+        "title": "Obtain External Definition"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.88.0",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "jssoup": "^0.0.15",
+    "node-fetch": "^2.7.0",
+    "package.json": "^2.0.1"
+  }
+}
